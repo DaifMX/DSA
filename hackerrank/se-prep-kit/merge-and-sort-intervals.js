@@ -1,3 +1,5 @@
+// Array Manipulation
+
 function mergeHighDefinitionIntervals(intervals) {
     if (!intervals.length) return [];
     

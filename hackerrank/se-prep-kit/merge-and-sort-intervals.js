@@ -1,4 +1,4 @@
-// Array Manipulation
+// Array Manipulation - Medium
 
 function mergeHighDefinitionIntervals(intervals) {
     if (!intervals.length) return [];

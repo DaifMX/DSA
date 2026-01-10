@@ -1,4 +1,4 @@
-// Binary Search
+// Binary Search - Easy
 
 function binarySearch(nums, target) {
     let low = 0;

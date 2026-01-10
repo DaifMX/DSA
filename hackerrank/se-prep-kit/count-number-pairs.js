@@ -1,11 +1,4 @@
-/*
- * Complete the 'countAffordablePairs' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER_ARRAY prices
- *  2. INTEGER budget
- */
+// Two Pointers - Easy
 
 function countAffordablePairs(prices, budget) {
     // Write your code here

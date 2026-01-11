@@ -1,4 +1,4 @@
-// Array Manipulation
+// Array Manipulation - Easy
 
 function countResponseTimeRegressions(responseTimes) {
     let acum = 0; // Acumulador para ir sumando los tiempos de respuesta

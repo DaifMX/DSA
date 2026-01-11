@@ -1,5 +1,6 @@
+// String and Patter Matching - Easy
+
 function isAlphabeticPalindrome(code) {
-    // Write your code here
     code = code.toLowerCase();
     let str = '';
      
@@ -14,12 +15,4 @@ function isAlphabeticPalindrome(code) {
     }
     
     return str === reversedStr;
-}
-
-function main() {
-    const code = readLine();
-
-    const result = isAlphabeticPalindrome(code);
-
-    process.stdout.write((result ? 1 : 0) + '\n');
 }

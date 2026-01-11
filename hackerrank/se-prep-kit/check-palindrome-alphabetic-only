@@ -1,0 +1,25 @@
+function isAlphabeticPalindrome(code) {
+    // Write your code here
+    code = code.toLowerCase();
+    let str = '';
+     
+    for (let i = 0; i < code.length; i++) {
+        const charAscii = code.charCodeAt(i);
+        if (charAscii >= 97 && charAscii <= 122) str += code[i];
+    }
+    
+    let reversedStr = '';
+    for (let i = str.length - 1; i >= 0; i--) {
+        reversedStr += str[i];
+    }
+    
+    return str === reversedStr;
+}
+
+function main() {
+    const code = readLine();
+
+    const result = isAlphabeticPalindrome(code);
+
+    process.stdout.write((result ? 1 : 0) + '\n');
+}

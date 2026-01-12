@@ -5,7 +5,6 @@ class Solution {
      * @return {number[]}
      */
     twoSum(numbers, target) {
-        const logs = [];
         const n = numbers.length;
 
         let left = 0

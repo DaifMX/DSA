@@ -80,7 +80,7 @@ node neetcode/neetcode150/has-duplicate.js
 
 | Platform | Problems Solved |
 |----------|----------------|
-| LeetCode | 4 |
-| NeetCode 150 | 8 |
-| HackerRank | 8 |
+| LeetCode | 2 |
+| NeetCode 250 | 16 |
+| HackerRank | 7 |
 | **Total** | **20+** |

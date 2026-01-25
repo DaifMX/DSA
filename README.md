@@ -43,12 +43,12 @@ DSA/
 
 <div align="center">
 
-| Category | Topics |
-|----------|--------|
-| **Data Structures** | Arrays, Linked Lists, Stacks, Queues, Hash Tables |
-| **Algorithms** | Binary Search, Two Pointers, Sliding Window |
-| **Patterns** | Pattern Matching, String Manipulation |
-| **Techniques** | Dynamic Arrays, Interval Merging |
+| Category           | Topics                                    |
+|--------------------|-------------------------------------------|
+| **Data Structures**| Arrays, Linked Lists, Stacks, Queues, Hash Tables | Trees
+| **Algorithms**     | Binary Search, Two Pointers, Sliding Window |
+| **Patterns**       | Pattern Matching, String Manipulation      |
+| **Techniques**     | Dynamic Arrays, Interval Merging, Sorting  |
 
 </div>
 
@@ -58,6 +58,7 @@ DSA/
 🔢 Arrays           🔗 Linked Lists      📚 Stacks & Queues
 #️⃣ Hash Tables      🔍 Binary Search     👆 Two Pointers
 📏 Sliding Window   📝 Strings           🔄 Sorting
+🌳 Trees
 ```
 
 ---
@@ -78,9 +79,9 @@ node neetcode/neetcode150/has-duplicate.js
 ---
 ## 📊 Progress Tracker
 
-| Platform | Problems Solved |
-|----------|----------------|
-| LeetCode | 2 |
-| NeetCode 250 | 16 |
-| HackerRank | 7 |
-| **Total** | **20+** |
+| Platform      | Problems Solved |
+|--------------|----------------|
+| LeetCode     | 3              |
+| NeetCode 250 | 24             |
+| HackerRank   | 7              |
+| **Total**    | **34**         |

@@ -19,12 +19,6 @@
 
 ---
 
-## About
-
-I created this repository to be able to track my progress on different online programming platforms.
-
----
-
 ## 📂 Repository Structure
 
 ```

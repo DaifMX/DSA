@@ -48,3 +48,22 @@ function deleteDuplicates(head: SinglyLinkedListNode): SinglyLinkedListNode {
 
     return res;
 }
+
+function deleteDuplicates2(head: SinglyLinkedListNode): SinglyLinkedListNode {
+    // Write your code here
+    let curr: SinglyLinkedListNode | null = head;
+    let last = null;
+    
+    while (curr) {
+        if (last && last.data === curr.data) {
+            last.next = curr.next;
+            
+        } else {
+            last = curr;
+        }
+        
+        curr = curr.next;
+    }        
+    
+    return head;
+}
